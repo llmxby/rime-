@@ -1,0 +1,37 @@
+# Rime user dictionary
+#@/db_name	luna_pinyin
+#@/db_type	userdb
+#@/rime_version	1.7.3
+#@/tick	41
+#@/user_id	mac
+chong zhuang 	重裝	c=1 d=0.847894 t=41
+chui de 	吹的	c=2 d=1.98511 t=41
+da fu du 	大幅度	c=1 d=0.826959 t=41
+dou di 	兜底	c=1 d=0.904837 t=41
+fang an 	方案	c=0 d=0.0852144 t=41
+gui 	貴	c=1 d=0.88692 t=41
+gui ze 	規則	c=2 d=1.88056 t=41
+he 	鶴	c=1 d=0.869358 t=41
+jia ge 	加個	c=1 d=0.878095 t=41
+jia shang 	加上	c=0 d=0.088692 t=41
+jia shang gui ze 	加上規則	c=1 d=0.891366 t=41
+jian pan 	劍盤	c=-1 d=0 t=41
+jian pan 	鍵盤	c=-1 d=0.980199 t=41
+jian pan ji 	劍盤及	c=-1 d=0 t=41
+ming yue 	明月	c=1 d=0.932394 t=41
+ni shi 	你是	c=1 d=0.831104 t=41
+pei zhi 	配置	c=1 d=0.955997 t=41
+pin yin 	拼音	c=1 d=0.937067 t=41
+quan pin 	全拼	c=1 d=0.918512 t=41
+shi yong 	使用	c=1 d=0.822835 t=41
+shu ru 	輸入	c=2 d=2.02198 t=41
+shu ru fa 	輸入法	c=5 d=4.57137 t=41
+shu ru fang an 	輸入方案	c=3 d=2.72601 t=41
+shu xu guan 	鼠鬚管	c=3 d=2.50615 t=41
+shuang pin 	雙拼	c=1 d=0.873716 t=41
+tong bu 	同步	c=2 d=1.94092 t=41
+wen an 	文案	c=2 d=1.79616 t=41
+wen jian 	文件	c=2 d=1.91202 t=41
+xiao 	小	c=1 d=0.865022 t=41
+xiu gai 	修改	c=1 d=0.913931 t=41
+xuan ze 	選擇	c=1 d=0.860708 t=41
