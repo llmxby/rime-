@@ -385,6 +385,10 @@ patch:
         ascii_mode: true
     com.apple.Terminal:              # 终端
         ascii_mode: true
+    com.googlecode.iterm2:           # 终端
+        ascii_mode: true
+    com.raycast.macos:               # raycast
+        ascii_mode: true
     com.microsoft.VSCode:            # Visual Studio Code
         ascii_mode: true
         ascii_punct: true            # 中文状态输出英文标点(半角) 
@@ -396,3 +400,4 @@ patch:
         ascii_mode: true
     com.xunyong.hapigo:              # hapigo
         ascii_mode: true
+  vim_mode: true
