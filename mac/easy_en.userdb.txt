@@ -2,8 +2,10 @@
 #@/db_name	easy_en
 #@/db_type	userdb
 #@/rime_version	1.7.3
-#@/tick	3
+#@/tick	6
 #@/user_id	mac
-clear 	clear	c=1 d=1 t=3
-dorado 	dorado	c=1 d=1 t=3
-hive 	hive	c=1 d=1 t=2
+abase 	abase	c=3 d=2.98506 t=6
+clear 	clear	c=1 d=1 t=6
+dorado 	dorado	c=1 d=1 t=6
+hive 	hive	c=1 d=0.995012 t=6
+strategy 	strategy	c=1 d=1 t=4

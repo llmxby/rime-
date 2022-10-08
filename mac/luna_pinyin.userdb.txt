@@ -2,186 +2,326 @@
 #@/db_name	luna_pinyin
 #@/db_type	userdb
 #@/rime_version	1.7.3
-#@/tick	239
+#@/tick	406
 #@/user_id	mac
-a 	啊	c=4 d=3.34031 t=239
-an zhao 	按照	c=1 d=0.786628 t=239
-an zhuang de 	安裝的	c=1 d=0.790571 t=239
-ban ben 	版本	c=2 d=1.72577 t=239
-bao 	報	c=1 d=1 t=161
-bao cuo 	報錯	c=1 d=1 t=164
-biao 	表	c=1 d=1.08311 t=232
-biao ming 	表名	c=1 d=1 t=234
-biao ming 	表明	c=1 d=1 t=233
-bu tong 	不同	c=1 d=0.683861 t=239
-ce lue 	策略	c=1 d=1 t=199
-cha jian 	插件	c=1 d=0.831104 t=239
-cha kan 	查看	c=1 d=0.782705 t=239
-chong zhuang 	重裝	c=1 d=0.847894 t=239
-chui de 	吹的	c=4 d=2.66529 t=239
-ci ku 	詞庫	c=2 d=1.30428 t=239
-cuo ti 	錯體	c=1 d=1 t=156
-cuo wu 	錯誤	c=1 d=1 t=163
-da duan 	打斷	c=1 d=1 t=206
-da fang da shuai 	大放大率	c=0 d=0.0891366 t=239
-da fu du 	大幅度	c=1 d=0.826959 t=239
-da ge 	大哥	c=1 d=1 t=239
-da suan 	打算	c=1 d=1 t=207
-dao 	到	c=2 d=1.50372 t=239
-de 	的	c=2 d=1.99837 t=239
-dian feng shi dai 	巔峰時代	c=0 d=0.0878095 t=239
-ding qi 	定期	c=2 d=1.86018 t=239
-ding shi ren wu 	定時任務	c=2 d=1.8509 t=239
-ding zheng 	訂正	c=1 d=1 t=157
-dou di 	兜底	c=1 d=0.904837 t=239
-du 	度	c=3 d=2.85941 t=230
-du 	都	c=0 d=0.1 t=199
-dui 	對	c=0 d=0.0960789 t=239
-dui dui 	對對	c=0 d=0.0960789 t=239
-dui dui dui 	對對對	c=2 d=1.93605 t=239
-duo 	多	c=1 d=0.941765 t=239
-e 	額	c=2 d=1.75957 t=229
-fa 	發	c=0 d=0.0763379 t=239
-fa shi fa shang 	法师法上	c=0 d=0.176946 t=239
-fa shi fa shang da fang da shuai fan she de 	法师法上大放大率反射的	c=1 d=0.895834 t=239
-fa shi fa shang dian feng shi dai 	法师法上巔峰時代	c=2 d=1.78282 t=239
-fan she de 	反射的	c=0 d=0.0891366 t=239
-fang an 	方案	c=0 d=0.0852144 t=239
-fang da 	方大	c=4 d=3.32824 t=239
-fang da fen san fa 	方大分散法	c=1 d=0.878095 t=239
-fang shi 	方式	c=0 d=0.088692 t=239
-fang shi fen san fa 	方式分散法	c=1 d=0.891366 t=239
-fen san fa 	分散法	c=0 d=0.176063 t=239
-feng dong fan dong 	风动旛动	c=2 d=1.76312 t=239
-feng dong fan dong fa 	风动旛动發	c=1 d=0.847861 t=239
-feng dong fan dong fa de 	风动旛动發的	c=1 d=0.810584 t=239
-feng dong fan dong feng dong fan dong fang da 	风动旛动风动旛动方大	c=1 d=0.843665 t=239
-fu le 	服了	c=0 d=0.0946485 t=239
-fu zhi 	複製	c=1 d=0.923116 t=239
-gao 	搞	c=1 d=1 t=187
-ge ge 	哥哥	c=0 d=0.099005 t=239
-guang biao 	光標	c=1 d=0.946485 t=239
-gui 	貴	c=1 d=0.88692 t=239
-gui ze 	規則	c=2 d=1.88056 t=239
-guo yi duan 	過一段	c=1 d=1 t=159
-hai you 	還有	c=1 d=1 t=235
-he 	和	c=2 d=1.47957 t=239
-he 	鶴	c=3 d=2.0293 t=239
-hen jian dan 	很簡單	c=0 d=0.0955997 t=239
-huan jing 	環境	c=2 d=1.97531 t=177
-ji ge 	幾個	c=1 d=0.932394 t=239
-ji hua 	計畫	c=1 d=1 t=158
-ji ke 	即可	c=2 d=1.65491 t=239
-jia ge 	加個	c=1 d=0.878095 t=239
-jia shang 	加上	c=0 d=0.088692 t=239
-jia shang gui ze 	加上規則	c=1 d=0.891366 t=239
-jian pan 	劍盤	c=-1 d=0 t=239
-jian pan 	鍵盤	c=-1 d=0.980199 t=239
-jian pan ji 	劍盤及	c=-1 d=0 t=239
-jun zi 	俊子	c=1 d=1.08905 t=239
-jun zi ge ge 	俊子哥哥	c=1 d=0.995012 t=239
-kai jing kou 	開頸口	c=0 d=0.0882497 t=239
-kai jing kou ji ke 	開頸口即可	c=1 d=0.88692 t=239
-li de 	裏的	c=2 d=1.97531 t=227
-lie 	列	c=0 d=0.0909373 t=239
-lin miao bin 	林苗鑌	c=2 d=1.92639 t=239
-lin miao bin 	林苗髕	c=1 d=0.955997 t=239
-ma 	嗎	c=4 d=3.67933 t=239
-mei biao 	沒標	c=1 d=1 t=184
-mei hang 	每行	c=1 d=0.909373 t=239
-mei jia 	沒加	c=1 d=1 t=178
-mei you a 	沒有啊	c=1 d=1 t=210
-mi 	密	c=1 d=1 t=165
-ming 	名	c=2 d=1.46327 t=239
-ming yue 	明月	c=1 d=0.932394 t=239
-ming zi 	名字	c=2 d=1.42356 t=239
-mo ren 	魔人	c=1 d=0.690734 t=239
-mo ren 	默認	c=1 d=0.694197 t=239
-na ge 	那個	c=1 d=0.886628 t=224
-na ge suan fa 	那個算法	c=1 d=1 t=225
-nan du 	難度	c=6 d=5.51358 t=226
-ni 	你	c=1 d=1 t=170
-ni shi 	你是	c=2 d=1.69205 t=239
-ni shi 	妳是	c=1 d=0.946485 t=239
-ni shi bu shi 	你是不是	c=0 d=0.0744532 t=239
-ni shi bu shi you du 	你是不是有毒	c=2 d=1.70426 t=239
-ni shuo shen me 	你說什麼	c=1 d=0.67032 t=239
-pei zhi 	配置	c=9 d=6.23759 t=239
-pin yin 	拼音	c=1 d=0.937067 t=239
-qian liang 	前兩	c=0 d=0.0909373 t=239
-qian liang lie 	前兩列	c=1 d=0.913931 t=239
-qian mian 	前面	c=1 d=0.927743 t=239
-quan pin 	全拼	c=1 d=0.918512 t=239
-quan xian 	權限	c=1 d=1 t=162
-ren wu 	任務	c=1 d=1 t=237
-ru guo 	如果	c=1 d=1 t=180
-ruan jian 	軟件	c=6 d=4.35426 t=239
-sha shou men 	殺手們	c=1 d=0.771052 t=239
-she me 	什麼	c=1 d=1 t=171
-she zhang 	社長	c=1 d=0.657047 t=239
-she zhi 	設置	c=1 d=0.66034 t=239
-sheng ji 	升級	c=1 d=0.852144 t=239
-sheng ji 	聲級	c=1 d=0.847894 t=239
-shi 	是	c=1 d=1 t=216
-shi de 	是的	c=2 d=2.05353 t=239
-shi de a 	是的啊	c=1 d=0.985112 t=239
-shi jian 	時間	c=1 d=1 t=160
-shi shen me 	是什麼	c=3 d=2.00572 t=239
-shi yong 	使用	c=4 d=2.6446 t=239
-shi yong 	是用	c=1 d=1 t=195
-shi zhe ge 	是這個	c=2 d=1.95123 t=221
-shu ru 	輸入	c=2 d=2.02198 t=239
-shu ru fa 	輸入法	c=8 d=4.9796 t=239
-shu ru fang an 	輸入方案	c=3 d=2.72601 t=239
-shu xu guan 	鼠鬚管	c=4 d=2.50615 t=239
-shuang pin 	雙拼	c=1 d=0.873716 t=239
-sou gou 	搜狗	c=1 d=0.97531 t=239
-suan 	算	c=1 d=1 t=198
-suan fa 	算法	c=0 d=0.1 t=224
-ti 	踢	c=0 d=0.1 t=180
-ti 	題	c=1 d=1 t=183
-ti ku 	題庫	c=2 d=1.2754 t=239
-ti mu 	題目	c=3 d=2.8376 t=204
-tong bu 	同步	c=9 d=7.38427 t=239
-tong bu yi fen 	同步一份	c=1 d=1 t=208
-tu ran 	突然	c=1 d=1 t=169
-wang yu 	王与	c=1 d=1 t=179
-wen an 	文案	c=2 d=1.79616 t=239
-wen jian 	文件	c=2 d=1.91202 t=239
-wo zhen de 	我真的	c=0 d=0.0946485 t=239
-wo zhen de fu le 	我真的服了	c=1 d=0.951229 t=239
-xi guan 	習慣	c=1 d=0.995012 t=239
-xi guan 	膝關	c=1 d=0.99005 t=239
-xiang dui 	相對	c=1 d=1 t=218
-xiao 	小	c=1 d=0.865022 t=239
-xiu gai 	修改	c=1 d=0.913931 t=239
-xuan ze 	選擇	c=2 d=1.4564 t=239
-yao 	要	c=0 d=0.1 t=190
-yao shi 	鑰匙	c=1 d=1 t=166
-yao tong bu 	要同步	c=1 d=1 t=191
-yao yong 	要用	c=0 d=0.1 t=202
-yao yong dao 	要用到	c=1 d=1 t=203
-yi fen 	一份	c=0 d=0.1 t=207
-yi zhi 	一致	c=1 d=1 t=167
-ying wen 	英文	c=1 d=0.697676 t=239
-yong hu 	用戶	c=1 d=0.985112 t=239
-you de 	有的	c=0 d=0.1 t=180
-you de ti 	有的踢	c=1 d=1 t=181
-you du 	有毒	c=0 d=0.0744532 t=239
-za zheng 	咋整	c=1 d=1 t=189
-zen me ban 	怎麼辦	c=1 d=1 t=186
-zhang wo 	掌握	c=1 d=1.099 t=201
-zhang wo du 	掌握都	c=1 d=1 t=200
-zhe bu shi 	這不是	c=0 d=0.0955997 t=239
-zhe bu shi hen jian dan ma 	這不是很簡單嗎	c=1 d=0.960789 t=239
-zhe ge 	這個	c=1 d=1 t=215
-zhe zhang 	這張	c=0 d=0.1 t=195
-zhe zhang biao 	這張表	c=1 d=1 t=196
-zhi de 	指的	c=1 d=1 t=217
-zhi ding 	制定	c=1 d=0.865022 t=239
-zhi ding 	指定	c=1 d=0.873716 t=239
-zhi qian 	之前	c=2 d=1.96561 t=175
-zi duan 	子段	c=0 d=0.1 t=211
-zi duan 	字段	c=1 d=1 t=213
-zi duan ma 	子段嗎	c=1 d=1 t=212
-zi fu 	字符	c=2 d=1.85558 t=239
+a 	啊	c=9 d=4.73166 t=406
+ai 	愛	c=0 d=0.1 t=369
+an duo 	安多	c=1 d=1 t=363
+an zhao 	按照	c=1 d=0.786628 t=406
+an zhuang de 	安裝的	c=1 d=0.790571 t=406
+ban ben 	版本	c=2 d=1.72577 t=406
+bao 	報	c=1 d=0.677057 t=406
+bao cun 	保存	c=1 d=1 t=367
+bao cuo 	報錯	c=1 d=0.687289 t=406
+biao 	表	c=3 d=1.49763 t=406
+biao ming 	表名	c=1 d=0.97531 t=406
+biao ming 	表明	c=1 d=0.970446 t=406
+bu 	不	c=0 d=0.1 t=399
+bu jiao jie 	不交接	c=1 d=1 t=400
+bu shi 	不是	c=1 d=1 t=319
+bu shi ba 	不是吧	c=1 d=1 t=316
+bu shi yao 	不是要	c=1 d=1 t=345
+bu tong 	不同	c=1 d=0.683861 t=406
+cai neng 	才能	c=0 d=0.1 t=342
+cai neng shang 	才能上	c=1 d=1 t=343
+ce lue 	策略	c=2 d=0.970924 t=406
+cha jian 	插件	c=1 d=0.831104 t=406
+cha kan 	查看	c=1 d=0.782705 t=406
+chong zai 	重載	c=1 d=1 t=361
+chong zhuang 	重裝	c=1 d=0.847894 t=406
+chui de 	吹的	c=4 d=2.66529 t=406
+ci ku 	詞庫	c=2 d=1.30428 t=406
+cuo ti 	錯體	c=1 d=0.66034 t=406
+cuo ti ding zheng 	錯體訂正	c=1 d=1 t=308
+cuo wu 	錯誤	c=1 d=0.683861 t=406
+da de 	打的	c=1 d=1 t=304
+da duan 	打斷	c=1 d=0.847894 t=406
+da fang da shuai 	大放大率	c=0 d=0.0891366 t=406
+da fu du 	大幅度	c=1 d=0.826959 t=406
+da ge 	大哥	c=2 d=1.20108 t=406
+da suan 	打算	c=1 d=0.852144 t=406
+dai ma 	代嗎	c=1 d=1 t=325
+dai ma 	代碼	c=1 d=1 t=328
+dao 	到	c=2 d=1.50372 t=406
+de 	得	c=1 d=1 t=344
+de 	的	c=7 d=4.0544 t=406
+de deng ni 	的等你	c=1 d=1 t=341
+deng ni 	等你	c=0 d=0.1 t=340
+di er ge 	第二個	c=1 d=1 t=281
+di er ge 	迪爾格	c=1 d=1 t=280
+dian 	點	c=0 d=0.1 t=321
+dian feng shi dai 	巔峰時代	c=0 d=0.0878095 t=406
+dian yi shou 	點一手	c=1 d=1 t=322
+ding qi 	定期	c=2 d=1.86018 t=406
+ding shi ren wu 	定時任務	c=2 d=1.8509 t=406
+ding zheng 	訂正	c=1 d=0.66365 t=406
+dong xi 	東西	c=1 d=1 t=295
+dou 	都	c=0 d=0.1 t=325
+dou di 	兜底	c=1 d=0.904837 t=406
+dou mei shang qu 	都沒上去	c=1 d=1 t=326
+du 	度	c=3 d=2.73359 t=406
+du 	都	c=0 d=0.0818731 t=406
+dui 	對	c=0 d=0.0960789 t=406
+dui dui 	對對	c=0 d=0.0960789 t=406
+dui dui dui 	對對對	c=2 d=1.93605 t=406
+duo 	多	c=1 d=0.941765 t=406
+e 	額	c=2 d=1.67375 t=406
+en 	恩	c=1 d=1 t=279
+fa 	發	c=0 d=0.0763379 t=406
+fa shi fa shang 	法师法上	c=0 d=0.176946 t=406
+fa shi fa shang da fang da shuai fan she de 	法师法上大放大率反射的	c=1 d=0.895834 t=406
+fa shi fa shang dian feng shi dai 	法师法上巔峰時代	c=2 d=1.78282 t=406
+fan hui 	返回	c=1 d=1 t=330
+fan she de 	反射的	c=0 d=0.0891366 t=406
+fang an 	方案	c=0 d=0.0852144 t=406
+fang da 	方大	c=4 d=3.32824 t=406
+fang da fen san fa 	方大分散法	c=1 d=0.878095 t=406
+fang shi 	方式	c=0 d=0.088692 t=406
+fang shi fen san fa 	方式分散法	c=1 d=0.891366 t=406
+fen san fa 	分散法	c=0 d=0.176063 t=406
+feng dong fan dong 	风动旛动	c=2 d=1.76312 t=406
+feng dong fan dong fa 	风动旛动發	c=1 d=0.847861 t=406
+feng dong fan dong fa de 	风动旛动發的	c=1 d=0.810584 t=406
+feng dong fan dong feng dong fan dong fang da 	风动旛动风动旛动方大	c=1 d=0.843665 t=406
+fu le 	服了	c=0 d=0.0946485 t=406
+fu zhi 	複製	c=1 d=0.923116 t=406
+gan sha 	幹啥	c=0 d=0.1 t=372
+gao 	搞	c=1 d=0.771052 t=406
+ge ge 	哥哥	c=0 d=0.099005 t=406
+guang biao 	光標	c=1 d=0.946485 t=406
+gui 	貴	c=1 d=0.88692 t=406
+gui ze 	規則	c=2 d=1.88056 t=406
+guo yi duan 	過一段	c=1 d=0.67032 t=406
+hai mei 	還沒	c=1 d=1 t=382
+hai shi 	還是	c=1 d=1 t=275
+hai you 	還有	c=1 d=0.980199 t=406
+hao 	號	c=0 d=0.191851 t=317
+hao le ma 	好了嗎	c=1 d=1 t=320
+he 	和	c=3 d=1.47957 t=406
+he 	鶴	c=4 d=2.0293 t=406
+hen jian dan 	很簡單	c=0 d=0.0955997 t=406
+hou mian 	後面	c=0 d=0.1 t=316
+huan ge 	換個	c=0 d=0.1 t=317
+huan ge hao 	換個號	c=1 d=1 t=318
+huan jing 	環境	c=2 d=1.44879 t=406
+hui gui 	回歸	c=1 d=1 t=346
+ji ge 	幾個	c=1 d=0.932394 t=406
+ji hua 	計畫	c=1 d=0.666977 t=406
+ji ke 	即可	c=2 d=1.65491 t=406
+jia ge 	加個	c=1 d=0.878095 t=406
+jia shang 	加上	c=0 d=0.088692 t=406
+jia shang gui ze 	加上規則	c=1 d=0.891366 t=406
+jian pan 	劍盤	c=-1 d=0 t=406
+jian pan 	鍵盤	c=-1 d=0.980199 t=406
+jian pan ji 	劍盤及	c=-1 d=0 t=406
+jiao jie 	交接	c=1 d=1.02312 t=399
+jiao yan 	教研	c=1 d=1 t=286
+jiu shi shuo 	就是說	c=1 d=1 t=246
+jiu xing le 	就行了	c=1 d=1 t=379
+ju ti 	具體	c=1 d=1 t=263
+jun zi 	俊子	c=1 d=1.08905 t=406
+jun zi ge ge 	俊子哥哥	c=1 d=0.995012 t=406
+kai fa 	開發	c=1 d=1 t=298
+kai jing kou 	開頸口	c=0 d=0.0882497 t=406
+kai jing kou ji ke 	開頸口即可	c=1 d=0.88692 t=406
+ke yi 	可以	c=0 d=0.1 t=355
+ke yi le ma 	可以了嗎	c=1 d=1 t=356
+lai lai lai 	來來來	c=1 d=1 t=321
+le 	了	c=2 d=1.94888 t=353
+le ba 	了吧	c=1 d=1 t=332
+le ba 	樂壩	c=1 d=1 t=331
+le ma 	了嗎	c=0 d=0.1 t=355
+li 	裏	c=1 d=1 t=249
+li de 	裏的	c=3 d=1.86028 t=406
+li hang 	李航	c=1 d=1 t=282
+lian tiao 	聯調	c=1 d=1 t=299
+lie 	列	c=0 d=0.0909373 t=406
+lin miao bin 	林苗鑌	c=2 d=1.92639 t=406
+lin miao bin 	林苗髕	c=1 d=0.955997 t=406
+liu liang 	流量	c=0 d=0.1 t=304
+lv 	呂	c=1 d=1 t=388
+ma 	嗎	c=11 d=6.64469 t=406
+ma fan 	麻煩	c=1 d=1 t=404
+mei biao 	沒標	c=1 d=0.759572 t=406
+mei hang 	每行	c=1 d=0.909373 t=406
+mei jia 	沒加	c=1 d=0.737123 t=406
+mei shang qu 	沒上去	c=0 d=0.1 t=325
+mei you a 	沒有啊	c=1 d=0.865022 t=406
+mi 	密	c=1 d=0.690734 t=406
+ming 	名	c=2 d=1.46327 t=406
+ming yue 	明月	c=1 d=0.932394 t=406
+ming zi 	名字	c=2 d=1.42356 t=406
+mo ren 	魔人	c=1 d=0.690734 t=406
+mo ren 	默認	c=1 d=0.694197 t=406
+na ge 	那個	c=1 d=0.822563 t=406
+na ge suan fa 	那個算法	c=1 d=0.932394 t=406
+na wo 	那我	c=0 d=0.1 t=385
+na wo shi yao 	那我是要	c=1 d=1 t=386
+nan du 	難度	c=10 d=5.1666 t=406
+ne 	呢	c=1 d=1 t=327
+ni 	你	c=2 d=1.24913 t=406
+ni de 	你的	c=1 d=1 t=256
+ni de 	逆的	c=0 d=0.1 t=254
+ni de a 	逆的啊	c=1 d=1 t=255
+ni hou mian 	你後面	c=1 d=1 t=317
+ni shi 	你是	c=2 d=1.69205 t=406
+ni shi 	妳是	c=1 d=0.946485 t=406
+ni shi bu shi 	你是不是	c=0 d=0.0744532 t=406
+ni shi bu shi you du 	你是不是有毒	c=2 d=1.70426 t=406
+ni shuo shen me 	你說什麼	c=1 d=0.67032 t=406
+ni zhe ge 	你這個	c=1 d=1 t=303
+pei zhi 	配置	c=9 d=6.23759 t=406
+pi 	批	c=0 d=0.1 t=404
+pi yi xia 	批一下	c=1 d=1 t=405
+pin yin 	拼音	c=1 d=0.937067 t=406
+qian liang 	前兩	c=0 d=0.0909373 t=406
+qian liang lie 	前兩列	c=1 d=0.913931 t=406
+qian mian 	前面	c=1 d=0.927743 t=406
+qian zhui 	前綴	c=1 d=1 t=372
+quan pin 	全拼	c=1 d=0.918512 t=406
+quan xian 	權限	c=4 d=3.11012 t=406
+que ding 	確定	c=1 d=1 t=399
+que ren 	確認	c=0 d=0.1 t=291
+que ren xia 	確認下	c=1 d=1 t=292
+ren wu 	任務	c=1 d=0.99005 t=406
+ru guo 	如果	c=1 d=0.744532 t=406
+ruan jian 	軟件	c=6 d=4.35426 t=406
+sha dou 	啥都	c=0 d=0.1 t=323
+sha dou mei you a 	啥都沒有啊	c=1 d=1 t=324
+sha shou men 	殺手們	c=1 d=0.771052 t=406
+shang 	上	c=0 d=0.1 t=342
+shang xian 	上線	c=2 d=1.95392 t=341
+shang xian le 	上線了	c=1 d=1 t=342
+she me 	什麼	c=1 d=0.71177 t=406
+she zhang 	社長	c=1 d=0.657047 t=406
+she zhi 	設置	c=1 d=0.66034 t=406
+shen qing 	申請	c=1 d=1 t=390
+sheng ji 	升級	c=1 d=0.852144 t=406
+sheng ji 	聲級	c=1 d=0.847894 t=406
+shi 	是	c=2 d=1.03029 t=406
+shi ba 	十八	c=1 d=1 t=244
+shi ba 	是吧	c=1 d=1 t=245
+shi de 	是的	c=2 d=2.05353 t=406
+shi de a 	是的啊	c=1 d=0.985112 t=406
+shi gan sha de 	是幹啥的	c=1 d=1 t=373
+shi jian 	時間	c=1 d=0.67368 t=406
+shi shen me 	是什麼	c=3 d=2.00572 t=406
+shi yao 	是要	c=0 d=0.1 t=385
+shi yong 	使用	c=4 d=2.6446 t=406
+shi yong 	是用	c=1 d=0.802519 t=406
+shi zhe ge 	是這個	c=2 d=1.78329 t=406
+shi zhe ge hao 	是這個號	c=1 d=1 t=301
+shi zhi jie 	是直接	c=1 d=1 t=258
+shu ru 	輸入	c=2 d=2.02198 t=406
+shu ru fa 	輸入法	c=8 d=4.9796 t=406
+shu ru fang an 	輸入方案	c=3 d=2.72601 t=406
+shu xu guan 	鼠鬚管	c=4 d=2.50615 t=406
+shuang pin 	雙拼	c=1 d=0.873716 t=406
+sou gou 	搜狗	c=1 d=0.97531 t=406
+suan 	算	c=1 d=0.814647 t=406
+suan fa 	算法	c=0 d=0.0927743 t=406
+ta 	他	c=0 d=0.1 t=393
+ta zhe zhang biao 	他這張表	c=1 d=1 t=394
+tai man 	太慢	c=1 d=1 t=358
+ti 	踢	c=0 d=0.0744532 t=406
+ti 	題	c=1 d=0.755784 t=406
+ti jian 	體檢	c=0 d=0.1 t=353
+ti jian le 	體檢了	c=1 d=1 t=354
+ti ku 	題庫	c=2 d=1.2754 t=406
+ti mu 	題目	c=6 d=3.3946 t=406
+ting quan 	挺全	c=1 d=1 t=397
+tong bu 	同步	c=9 d=7.38427 t=406
+tong bu de 	同步的	c=1 d=1 t=259
+tong bu yi fen 	同步一份	c=1 d=0.856415 t=406
+tong xue 	同學	c=1 d=1 t=268
+tu ran 	突然	c=1 d=0.704688 t=406
+tui ti 	推題	c=1 d=1 t=311
+tui ti 	退題	c=1 d=1 t=310
+wai bu 	外部	c=0 d=0.1 t=358
+wai bu wen jian 	外部文件	c=1 d=1 t=359
+wang yu 	王与	c=1 d=0.740818 t=406
+wang yu 	王雨	c=1 d=1 t=307
+wen an 	文案	c=2 d=1.79616 t=406
+wen jian 	文件	c=2 d=1.91202 t=406
+wo 	我	c=0 d=0.1 t=311
+wo kan 	我看	c=1 d=1 t=252
+wo men 	我們	c=1 d=1 t=283
+wo shi bu shi 	我是不是	c=1 d=1 t=375
+wo xian 	我先	c=1 d=1 t=291
+wo zhe ge 	我這個	c=1 d=1 t=340
+wo zhen de 	我真的	c=0 d=0.0946485 t=406
+wo zhen de fu le 	我真的服了	c=1 d=0.951229 t=406
+wo zhi jie 	我直接	c=1 d=1 t=312
+xi guan 	習慣	c=1 d=0.995012 t=406
+xi guan 	膝關	c=1 d=0.99005 t=406
+xia 	下	c=0 d=0.1 t=291
+xian shang 	線上	c=1 d=1 t=242
+xian zai shi 	现在世	c=1 d=1 t=334
+xian zai shi 	現在是	c=1 d=1 t=335
+xiang dui 	相對	c=2 d=0.912672 t=406
+xiao 	小	c=1 d=0.865022 t=406
+xiao liu liang 	小流量	c=2 d=1.91393 t=323
+xin xi 	信息	c=1 d=1 t=396
+xin zeng 	新增	c=2 d=1.99005 t=352
+xiu gai 	修改	c=2 d=1.19106 t=406
+xu qiu 	需求	c=1 d=1 t=403
+xuan ze 	選擇	c=2 d=1.4564 t=406
+yang 	洋	c=1 d=1 t=389
+yao 	要	c=0 d=0.0782705 t=406
+yao qu 	要去	c=1 d=1 t=265
+yao shi 	鑰匙	c=1 d=0.694197 t=406
+yao tong bu 	要同步	c=1 d=0.786628 t=406
+yao yong 	要用	c=0 d=0.0831104 t=406
+yao yong dao 	要用到	c=1 d=0.83527 t=406
+ye 	也	c=1 d=1 t=313
+ye shi 	也是	c=1 d=1 t=254
+ye wu 	業務	c=3 d=2.18016 t=402
+yi fen 	一份	c=0 d=0.0852144 t=406
+yi shou 	一手	c=0 d=0.1 t=321
+yi xia 	一下	c=1 d=1.13509 t=404
+yi xia ma 	一下嗎	c=1 d=1 t=401
+yi zhi 	一致	c=1 d=0.697676 t=406
+ying gai shi 	應該是	c=1 d=1 t=284
+ying wen 	英文	c=1 d=0.697676 t=406
+yong 	用	c=1 d=1 t=377
+yong hu 	用戶	c=1 d=0.985112 t=406
+you 	有	c=1 d=1 t=285
+you de 	有的	c=0 d=0.0744532 t=406
+you de ti 	有的踢	c=1 d=0.748264 t=406
+you du 	有毒	c=0 d=0.0744532 t=406
+you ma 	有嗎	c=1 d=1 t=251
+you ma 	油麻	c=1 d=1 t=250
+you mei you 	有沒有	c=1 d=1 t=293
+za zheng 	咋整	c=1 d=0.778801 t=406
+zai 	在	c=1 d=1 t=248
+zai ru 	載入	c=1 d=1 t=362
+zen me ban 	怎麼辦	c=1 d=0.767206 t=406
+zeng jia 	增加	c=0 d=0.1 t=369
+zeng jia ai 	增加愛	c=1 d=1 t=370
+zhang wo 	掌握	c=1 d=0.908828 t=406
+zhang wo du 	掌握都	c=1 d=0.822835 t=406
+zhao 	找	c=2 d=1.54607 t=387
+zhe bu shi 	這不是	c=0 d=0.0955997 t=406
+zhe bu shi hen jian dan ma 	這不是很簡單嗎	c=1 d=0.960789 t=406
+zhe ge 	這個	c=6 d=3.81061 t=406
+zhe ge shi 	這個事	c=1 d=1 t=240
+zhe zhang 	這張	c=0 d=0.0802519 t=406
+zhe zhang biao 	這張表	c=2 d=0.908976 t=406
+zhen de 	真的	c=1 d=1 t=300
+zhen duan 	診斷	c=1 d=1 t=357
+zheng pai 	正排	c=3 d=2.81877 t=369
+zheng pai 	正派	c=1 d=1 t=348
+zhi de 	指的	c=1 d=0.895834 t=406
+zhi ding 	制定	c=1 d=0.865022 t=406
+zhi ding 	指定	c=1 d=0.873716 t=406
+zhi jie 	直接	c=3 d=2.73671 t=376
+zhi qian 	之前	c=2 d=1.42733 t=406
+zhi you 	只有	c=1 d=1 t=241
+zhong tai 	中台	c=1 d=1.07045 t=266
+zhong tai de 	中台的	c=1 d=1 t=267
+zi chan 	資產	c=1 d=1 t=368
+zi dong 	自動	c=1 d=1 t=366
+zi duan 	子段	c=0 d=0.0869358 t=406
+zi duan 	字段	c=1 d=0.878095 t=406
+zi duan ma 	子段嗎	c=1 d=0.873716 t=406
+zi fu 	字符	c=2 d=1.85558 t=406
