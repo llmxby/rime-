@@ -2,10 +2,11 @@
 #@/db_name	easy_en
 #@/db_type	userdb
 #@/rime_version	1.7.3
-#@/tick	6
+#@/tick	7
 #@/user_id	mac
-abase 	abase	c=3 d=2.98506 t=6
-clear 	clear	c=1 d=1 t=6
-dorado 	dorado	c=1 d=1 t=6
-hive 	hive	c=1 d=0.995012 t=6
-strategy 	strategy	c=1 d=1 t=4
+abase 	abase	c=3 d=2.98506 t=7
+clear 	clear	c=1 d=1 t=7
+dorado 	dorado	c=1 d=1 t=7
+hive 	hive	c=1 d=0.995012 t=7
+strategy 	strategy	c=1 d=0.99005 t=7
+thrift 	thrift	c=1 d=1 t=7
