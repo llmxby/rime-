@@ -6,20 +6,20 @@
 #@/user_id	mac
 abase 	abase	c=4 d=3.93563 t=19
 algorithm 	algorithm	c=2 d=1.98511 t=19
-bosun 	bosun	c=1 d=1 t=16
+bosun 	bosun	c=1 d=0.985112 t=19
 calculator 	calculator	c=3 d=2.96546 t=19
-check 	check	c=1 d=1 t=17
+check 	check	c=1 d=0.99005 t=19
 clear 	clear	c=1 d=1 t=19
 dorado 	dorado	c=1 d=1 t=19
 hive 	hive	c=1 d=0.995012 t=19
-ipv 	IPv4	c=1 d=1 t=20
+ipv 	IPv4	c=1 d=1 t=19
 ipv 	IPv6	c=4 d=3.97017 t=19
-limit 	limit	c=1 d=1 t=18
-participant 	participant	c=1 d=1 t=17
-pony 	pony	c=1 d=1 t=16
+limit 	limit	c=1 d=0.995012 t=19
+participant 	participant	c=1 d=0.99005 t=19
+pony 	pony	c=1 d=0.985112 t=19
 profile 	profile	c=1 d=1 t=19
 recommend 	recommend	c=1 d=1 t=19
-source 	source	c=2 d=1.99501 t=17
+source 	source	c=2 d=1.97516 t=19
 strategy 	strategy	c=2 d=1.98511 t=19
 thrift 	thrift	c=1 d=1 t=19
 transform 	transform	c=1 d=1 t=19
