@@ -2,28 +2,32 @@
 #@/db_name	easy_en
 #@/db_type	userdb
 #@/rime_version	1.7.3
-#@/tick	25
+#@/tick	31
 #@/user_id	mac
-abase 	abase	c=4 d=3.93563 t=25
-algorithm 	algorithm	c=2 d=1.98511 t=25
-bosun 	bosun	c=1 d=0.985112 t=25
-calculator 	calculator	c=3 d=2.96546 t=25
-check 	check	c=1 d=0.99005 t=25
-clear 	clear	c=1 d=1 t=25
-component 	component	c=1 d=1 t=20
-count 	count	c=1 d=1 t=20
-dorado 	dorado	c=1 d=1 t=25
-hive 	hive	c=1 d=0.995012 t=25
-ipv 	IPv4	c=1 d=1 t=25
-ipv 	IPv6	c=7 d=6.8082 t=25
-knowledge 	knowledge	c=1 d=1 t=24
-limit 	limit	c=1 d=0.995012 t=25
-participant 	participant	c=1 d=0.99005 t=25
-pony 	pony	c=3 d=2.95101 t=25
-profile 	profile	c=1 d=1 t=25
-recommend 	recommend	c=1 d=1 t=25
-source 	source	c=2 d=1.97516 t=25
-strategy 	strategy	c=2 d=1.98511 t=25
-thrift 	thrift	c=1 d=1 t=25
-transform 	transform	c=1 d=1 t=25
-women 	women	c=1 d=1 t=25
+abase 	abase	c=4 d=3.93563 t=31
+algorithm 	algorithm	c=2 d=1.98511 t=31
+bosun 	bosun	c=1 d=0.985112 t=31
+bush 	bush	c=1 d=1 t=30
+calculator 	calculator	c=3 d=2.96546 t=31
+check 	check	c=1 d=0.99005 t=31
+clear 	clear	c=1 d=1 t=31
+component 	component	c=1 d=0.97531 t=31
+count 	count	c=1 d=0.97531 t=31
+dorado 	dorado	c=1 d=1 t=31
+hive 	hive	c=1 d=0.995012 t=31
+index 	index	c=1 d=1 t=26
+ipv 	IPv4	c=1 d=1 t=31
+ipv 	IPv6	c=7 d=6.8082 t=31
+knowledge 	knowledge	c=1 d=0.995012 t=31
+limit 	limit	c=1 d=0.995012 t=31
+participant 	participant	c=1 d=0.99005 t=31
+pony 	pony	c=5 d=4.85385 t=31
+profile 	profile	c=1 d=1 t=31
+recommend 	recommend	c=1 d=1 t=31
+source 	source	c=2 d=1.97516 t=31
+strategy 	strategy	c=2 d=1.98511 t=31
+tail 	tail	c=1 d=1 t=27
+thrift 	thrift	c=1 d=1 t=31
+transform 	transform	c=1 d=1 t=31
+user 	user	c=1 d=1 t=28
+women 	women	c=1 d=1 t=31
