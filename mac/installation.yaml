@@ -1,8 +1,8 @@
 distribution_code_name: Squirrel
 distribution_name: "鼠鬚管"
-distribution_version: 0.15.2
+distribution_version: 0.16.2
 install_time: "Fri Oct  7 18:03:07 2022"
-installation_id: "4bc725d0-8c93-491b-a2c1-e953859eaf30"
-rime_version: 1.7.3
+installation_id: mac
+rime_version: 1.8.5
 sync_dir: "/Users/admin/llmxby/work/cloud/cloud/Rime"
-installation_id: "mac"
+update_time: "Mon Feb  6 17:15:31 2023"
