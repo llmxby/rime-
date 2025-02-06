@@ -1,0 +1,213 @@
+# luna_pinyin.custom.yaml
+# encoding: utf-8
+
+# Rime schema
+# encoding: utf-8
+
+patch:
+  # first patch
+  # === luna_pinyin 0.24 === #
+
+  # Rime schema
+  # encoding: utf-8
+
+  schema:
+    schema_id: luna_pinyin
+    name: 朙月拼音
+    version: "0.24"
+    author:
+      - 佛振 <chen.sst@gmail.com>
+    description: |
+      Rime 預設的拼音輸入方案。
+      參考以下作品而創作：
+        * CC-CEDICT
+        * Android open source project
+        * Chewing - 新酷音
+        * opencc - 開放中文轉換
+    dependencies:
+      - stroke
+
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+
+  engine:
+    processors:
+      - ascii_composer
+      - recognizer
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - fallback_segmentor
+    translators:
+      - punct_translator
+      - table_translator@custom_phrase
+      - reverse_lookup_translator
+      - script_translator
+    filters:
+      - simplifier
+      - uniquifier
+
+  speller:
+    alphabet: zyxwvutsrqponmlkjihgfedcba
+    delimiter: " '"
+    algebra:
+      - erase/^xx$/
+      - abbrev/^([a-z]).+$/$1/
+      - abbrev/^([zcs]h).+$/$1/
+      - derive/^([nl])ve$/$1ue/
+      - derive/^([jqxy])u/$1v/
+      - derive/un$/uen/
+      - derive/ui$/uei/
+      - derive/iu$/iou/
+      - derive/([aeiou])ng$/$1gn/
+      - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+      - derive/ong$/on/
+      - derive/ao$/oa/
+      - derive/([iu])a(o|ng?)$/a$1$2/
+
+  translator:
+    dictionary: luna_pinyin
+    preedit_format:
+      - xform/([nl])v/$1ü/
+      - xform/([nl])ue/$1üe/
+      - xform/([jqxy])v/$1u/
+
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+
+  reverse_lookup:
+    dictionary: stroke
+    enable_completion: true
+    prefix: "`"
+    suffix: "'"
+    tips: 〔筆畫〕
+    preedit_format:
+      - xlit/hspnz/一丨丿丶乙/
+    comment_format:
+      - xform/([nl])v/$1ü/
+
+  punctuator:
+    import_preset: symbols
+
+  key_binder:
+    import_preset: default
+
+  recognizer:
+    import_preset: default
+    patterns:
+      punct: '^/([0-9]0?|[A-Za-z]+)$'
+      reverse_lookup: "`[a-z]*'?$"
+
+
+  # second patch
+  # === based on luna_pinyin 0.24 === #
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+      reset: 0
+    - name: simplification
+      states: [ 漢字, 汉字 ]
+      reset: 0
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+      reset: 0
+
+
+
+
+
+
+
+  # 自定义
+
+  # 符号
+
+  punctuator:
+    import_preset: symbols # symbols enabled
+    half_shape:
+    # 列出和 英文标点 不同的 标点 (即打中文时需要 "特别改" 的标点)
+    # 常用标点: 冒号 分号 顿号 名字分词号 逗号 句号 问号 感叹号 钱号 破折号 省略号
+    # 成对标点: 双引号 单引号 书名号 括号
+
+      # 常用标点
+      ':' : '：'
+      ';' : '；'
+      '\' : '、'
+      ',' : '，'
+      '.' : '。'
+      '?' : '？'
+      '!' : '！'
+      #'/' : '/'  # hot key for symbols (if symbols enabled) 当有开启 symbols 输入功能(例如输入 āáǎà)时，功能激活键是此键
+
+      # 成对标点
+      '''' : { pair: [ '‘', '’' ] }
+      '"' : { pair: [ '“', '”' ] }
+      '<' : '《'
+      '>' : '》'
+      '[' : '【'
+      ']' : '】'
+      '{' : '{'
+      '}' : '}'
+      #'(' : '('
+      #')' : ')'
+      '(' : '（'
+      ')' : '）'
+
+      # 其它符号
+      #'`' : '`' # hot key for stroke (if stroke enabled) 当有开启笔画反查功能时，功能激活键是此键
+      '~' : '~'
+      '@' : '@'
+      '#' : '#'
+      '$' : '￥'
+      '%' : '%'
+      '^' : '^'
+      #'^' : '……'
+      '&' : '&'
+      '*' : '*'
+      '-' : '-'
+      '_' : '——'
+      '=' : '='
+      '+' : '+'
+      #'|' : '|'
+      '|' : '·'
+
+
+  # emoji
+
+  # rime-emoji
+  # rime emoji 参考 https://github.com/rime/rime-emoji https://github.com/rime/rime-emoji/issues/7 https://www.ahonn.me/blog/custom-input-methods-with-rime
+  # tip: Win 自带 emoji 及更多符号键盘: Win 徽标键 + .（句点）显示表情符号及更多符号键盘；mac 自带 emoji 键盘: ⌃ + ⌘ + 空格键（control + command + space）显示表情符号键盘
+  switches/@next:
+    name: emoji_suggestion
+    reset: 0
+    states: [ "绘文字关", "绘文字开" ]
+  'engine/filters/@before 0':
+    simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: all

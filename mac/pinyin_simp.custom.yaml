@@ -1,0 +1,313 @@
+# Rime schema
+# encoding: utf-8
+
+patch:
+  # first patch
+  # === pinyin_simp 0.8 (pinyin_simp.schema.yaml) === #
+
+  # Rime schema
+  # encoding: utf-8
+
+  schema:
+    schema_id: pinyin_simp
+    name: 袖珍简化字拼音
+    version: "0.8"
+    author:
+      - 佚名
+    description: |
+      源自 Android 拼音
+    dependencies:
+      - stroke
+
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+
+  engine:
+    processors:
+      - ascii_composer
+      - recognizer
+      - key_binder
+      - speller
+      - punctuator
+      - selector
+      - navigator
+      - express_editor
+    segmentors:
+      - ascii_segmentor
+      - matcher
+      - abc_segmentor
+      - punct_segmentor
+      - fallback_segmentor
+    translators:
+      - punct_translator
+      - script_translator
+      - reverse_lookup_translator
+
+  speller:
+    alphabet: zyxwvutsrqponmlkjihgfedcba
+    delimiter: " '"
+    algebra:
+      - abbrev/^([a-z]).+$/$1/
+      - abbrev/^([zcs]h).+$/$1/
+      - derive/^([nl])ue$/$1ve/
+      - derive/^([jqxy])u/$1v/
+      - derive/un$/uen/
+      - derive/ui$/uei/
+      - derive/iu$/iou/
+      - derive/([aeiou])ng$/$1gn/
+      - derive/([dtngkhrzcs])o(u|ng)$/$1o/
+      - derive/ong$/on/
+      - derive/ao$/oa/
+      - derive/([iu])a(o|ng?)$/a$1$2/
+
+  translator:
+    dictionary: pinyin_simp
+    preedit_format:
+      - xform/([nl])v/$1ü/
+      - xform/([nl])ue/$1üe/
+      - xform/([jqxy])v/$1u/
+
+  reverse_lookup:
+    dictionary: stroke
+    enable_completion: true
+    prefix: "`"
+    suffix: "'"
+    tips: 〔笔画〕
+    preedit_format:
+      - xlit/hspnz/一丨丿丶乙/
+
+  punctuator:
+    import_preset: symbols
+
+  key_binder:
+    import_preset: default
+
+  recognizer:
+    import_preset: default
+    patterns:
+      # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+      # so those who have customized '/' for direct commit won't be affected by
+      # this change.
+      punct: "^/([0-9]+[a-z]*|[a-z]+)$"
+      reverse_lookup: "`[a-z]*'?$"
+
+
+
+  # second patch
+  # === based on luna_pinyin 0.24 (luna_pinyin.schema.yaml) and luna_pinyin_simp 0.22 (luna_pinyin_simp.schema.yaml) ===
+
+  switches:
+    - name: ascii_mode
+      states: [ 中文, 西文 ]
+      reset: 1
+    - name: full_shape
+      states: [ 半角, 全角 ]
+      reset: 0
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+      reset: 0
+
+  engine/filters:
+    - simplifier
+    - uniquifier
+
+  # simplifier/option_name: zh_simp # need not to do this
+
+  # custom_phrase.txt
+  # 参考 https://gist.github.com/lotem/5440677 https://github.com/rime/rime-luna-pinyin/blob/master/luna_pinyin.schema.yaml
+
+  engine/translators:
+    - punct_translator
+    - table_translator@custom_phrase
+    - reverse_lookup_translator
+    - script_translator
+
+  custom_phrase:
+    dictionary: ""
+    user_dict: custom_phrase
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 1
+
+  # easy_en
+
+  "schema/dependencies/@next": easy_en
+  "engine/translators/@next": table_translator@english
+  english:
+    dictionary: easy_en
+    spelling_hints: 9
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: -3
+
+  # *.dict.yaml
+
+  "translator/dictionary": pinyin_simp.extended
+  "speller/algebra/@before 0": xform/^([b-df-hj-np-tv-z])$/$1_/
+
+  # patterns
+  # 参考 https://github.com/rime/rime-pinyin-simp
+
+  recognizer:
+    import_preset: default
+    patterns:
+      # hack: to enable "/fh" style symbols, '/' must be mapped to a [list].
+      # so those who have customized '/' for direct commit won't be affected by
+      # this change.
+      email: "^[A-Za-z][-_.0-9A-Za-z]*@.*$"
+      uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
+      url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
+      #注音输入 āáǎà
+      #punct: "^/([0-9]0?|[A-Za-z]+)$"
+      #笔划反查
+      #reverse_lookup: "`[a-z]*'?$"
+
+
+
+
+  # 自定义
+
+  # 符号
+
+  punctuator:
+    import_preset: symbols # symbols enabled
+    half_shape:
+    # 列出和 英文标点 不同的 标点 (即打中文时需要 "特别改" 的标点)
+    # 常用标点: 冒号 分号 顿号 名字分词号 逗号 句号 问号 感叹号 钱号 破折号 省略号
+    # 成对标点: 双引号 单引号 书名号 括号
+
+      # 常用标点
+      ':' : '：'
+      ';' : '；'
+      '\' : '、'
+      ',' : '，'
+      '.' : '。'
+      '?' : '？'
+      '!' : '！'
+      '/' : '/'  # when disable this punctuator, this key is used as hot key for symbols (if symbols enabled) 当有开启 symbols 输入功能(例如输入 āáǎà)时，功能激活键是此键
+
+      # 成对标点
+      '''' : { pair: [ '‘', '’' ] }
+      '"' : { pair: [ '“', '”' ] }
+      '<' : '《'
+      '>' : '》'
+      '[' : '【'
+      ']' : '】'
+      '{' : '{'
+      '}' : '}'
+      #'(' : '('
+      #')' : ')'
+      '(' : '（'
+      ')' : '）'
+
+      # 其它符号
+      '`' : '`' # when disable this punctuator, this key is used as hot key for stroke (if stroke enabled) 当有开启笔画反查功能时，功能激活键是此键
+      '~' : '~'
+      '@' : '@'
+      '#' : '#'
+      '$' : '￥'
+      '%' : '%'
+      '^' : '^'
+      #'^' : '……'
+      '&' : '&'
+      '*' : '*'
+      '-' : '-'
+      '_' : '——'
+      '=' : '='
+      '+' : '+'
+      #'|' : '|'
+      '|' : '·'
+
+
+  # emoji
+
+  # rime-emoji
+  # rime emoji 参考 https://github.com/rime/rime-emoji https://github.com/rime/rime-emoji/issues/7 https://www.ahonn.me/blog/custom-input-methods-with-rime
+  # tip: Win 自带 emoji 及更多符号键盘: Win 徽标键 + .（句点）显示表情符号及更多符号键盘；mac 自带 emoji 键盘: ⌃ + ⌘ + 空格键（control + command + space）显示表情符号键盘
+  switches/@next:
+    name: emoji_suggestion
+    reset: 0
+    states: [ "绘文字关", "绘文字开" ]
+  'engine/filters/@before 1':
+    simplifier@emoji_suggestion
+  emoji_suggestion:
+    opencc_config: emoji.json
+    option_name: emoji_suggestion
+    tips: all
+
+  # 模糊拼音
+
+  'speller/algebra':
+    - erase/^xx$/                      # 第一行保留
+
+    # 模糊音定義
+    # 需要哪組就刪去行首的 # 號，單雙向任選
+    #- derive/^([zcs])h/$1/             # zh, ch, sh => z, c, s
+    #- derive/^([zcs])([^h])/$1h$2/     # z, c, s => zh, ch, sh
+
+    #- derive/^n/l/                     # n => l
+    #- derive/^l/n/                     # l => n
+
+    # 這兩組一般是單向的
+    #- derive/^r/l/                     # r => l
+
+    #- derive/^ren/yin/                 # ren => yin, reng => ying
+    #- derive/^r/y/                     # r => y
+
+    # 下面 hu <=> f 這組寫法複雜一些，分情況討論
+    #- derive/^hu$/fu/                  # hu => fu
+    #- derive/^hong$/feng/              # hong => feng
+    #- derive/^hu([in])$/fe$1/          # hui => fei, hun => fen
+    #- derive/^hu([ao])/f$1/            # hua => fa, ...
+
+    #- derive/^fu$/hu/                  # fu => hu
+    #- derive/^feng$/hong/              # feng => hong
+    #- derive/^fe([in])$/hu$1/          # fei => hui, fen => hun
+    #- derive/^f([ao])/hu$1/            # fa => hua, ...
+
+    # 韻母部份
+    #- derive/^([bpmf])eng$/$1ong/      # meng = mong, ...
+    #- derive/([ei])n$/$1ng/            # en => eng, in => ing
+    #- derive/([ei])ng$/$1n/            # eng => en, ing => in
+
+    # 樣例足夠了，其他請自己總結……
+
+    # 模糊音定義先於簡拼定義，方可令簡拼支持以上模糊音
+    - abbrev/^([a-z]).+$/$1/           # 簡拼（首字母）
+    - abbrev/^([zcs]h).+$/$1/          # 簡拼（zh, ch, sh）
+
+    # 以下是一組容錯拼寫，《漢語拼音》方案以前者爲正
+    - derive/^([nl])ve$/$1ue/          # nve = nue, lve = lue
+    - derive/^([jqxy])u/$1v/           # ju = jv,
+    - derive/un$/uen/                  # gun = guen,
+    - derive/ui$/uei/                  # gui = guei,
+    - derive/iu$/iou/                  # jiu = jiou,
+
+    # 自動糾正一些常見的按鍵錯誤
+    - derive/([aeiou])ng$/$1gn/        # dagn => dang
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
+    - derive/ong$/on/                  # zhonguo => zhong guo
+    - derive/ao$/oa/                   # hoa => hao
+    - derive/([iu])a(o|ng?)$/a$1$2/    # tain => tian
+
+  # 分尖團後 v => ü 的改寫條件也要相應地擴充：
+  #'translator/preedit_format':
+  #  - "xform/([nljqxyzcs])v/$1ü/"
+
+
+  # 更多按键错误纠错
+  # 参考 https://github.com/hosxy/rime-aurora-pinyin
+
+    - derive/tei$/tei/ # 取消 tei > tie
+    - derive/i$/ii/ # ii > i i 错按两次
+    - derive/u$/uu/ # uu > u u 错按两次
+    - derive/xia$/cia/ # cia > xia
+    - derive/wei$/wie/ # wie > wei
+    - derive/hua$/hau/ # hau > hua

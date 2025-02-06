@@ -1,0 +1,535 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# luna_pinyin.i.dict.yaml
+#
+
+---
+name: luna_pinyin.i
+version: "2017.05.01"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+# #####################################################
+
+# 中文特有名词
+
+德玛西亚
+莱布尼茨
+伊卡洛斯
+亚克西
+奥利给
+续一秒
+烟馆
+膜蛤
+膜法师
+蓄力
+亦可赛艇
+圈地自萌
+加藤保宪
+一刀囊死
+肖申克
+克鲁苏
+马基雅维利
+特拉法尔加
+尚达曼
+史蒂芬
+史蒂夫
+
+# 词频调整
+
+茉茉	mo mo	1
+霾霾	mai mai	1
+糟心事	cao xin shi	1
+揩油	ka you	1
+的	d	1
+的	de	1
+了	l	1
+了	le	1
+人	r	1
+人	ren	1
+
+# 网址、网站
+
+v2ex	v tex	10000
+V2EX	v tex	10001
+douban	dou ban
+imgur	im gur
+IMDb	im db
+#Instagram	instagram
+#Instagram	ins	10000
+Baidu	bai du
+Facebook	face book
+Facebook	f b	10000
+Google	go o gle
+Google	gu ge	10000
+Twitter	twitter
+Twitter	t w	10000
+Weibo	w b	10000
+Plurk	p lurk
+QCon	q con
+TED	t e d	10000
+Taobao	tao bao	10000
+Yahoo	ya hoo
+Youku	you ku
+YouTube	you tube
+YouTube	y t b	10000
+ZeroNet	zero net
+Zhihu	zhi hu	10001
+知乎	zhi hu	10000
+目的地	mu di di	10000
+新片场	xin pian chang	10000
+cnBeta	cnbeta
+
+# 电脑硬件厂商厂牌 & 硬件产品名
+
+Nvidia	n vidia
+Ruff	r u f f
+Xeon	x eon
+DJI	da jiang
+#
+PSP	p s p	10000
+Xbox	x b o x	10000
+Canon	ca non
+Canon	jia neng	10000
+Nikon	ni kon
+Nikon	ni kang	10000
+Arduino	arduino
+
+# 新闻厂商厂牌
+
+BBC	b b c	10000
+CCTV	c c t v
+中国中央电视台	c c t v
+无理搅三分
+CNN	c n n
+
+# 电脑软件厂商厂牌 & 软件名 (民用系统、软件，开发用开源库、框架)
+
+Tencent	ten cent	10000
+Oracle	o racle	10000
+Mozilla	mo zilla	10000
+Microsoft	mi cro soft	10000
+Microsoft	m s	10000
+SAP	s a p	10000
+Blizzard	bli zzard	10000
+JetBrains	jet brains	10000
+#
+Arch	a r c h	10000
+QQ	q q	10000
+Firefox	fire fox	10000
+Firefox	f f	10000
+Ubuntu	u buntu	10000
+Kubuntu	ku buntu	10000
+Whatsapp	whats app	10000
+Windows	win dows	10000
+Xcode	x code	10000
+Wechat	we chat	10000
+Wordpress	word press	10000
+Telegram	tele gram	10000
+#
+Ansible	an sible	10000
+Chef	c h e f	10000
+PhpStorm	php storm	10000
+RubyMine	ruby mine	10000
+PyCharm	p y charm	10000
+#
+GNU	g n u
+Unix	u n i x	10000
+Rails	r a i l s	10000
+Ruby on Rails	r o r	10000
+
+# 游戏、球队厂商厂牌
+
+NBA	n b a	10000
+NCAA	n c a a	10000
+FIFA	f i f a	10000
+GSW	g s w
+Golden State Warriors	g s w
+Olympics	olymipc	10000
+Olympics	olymipcs	10000
+KOF	k o f	10000
+LOL	l o l	10000
+WOW	w o w	10000
+Warcraft	warcraft	10000
+Warriors	warriors	10000
+World of Warcraft	w o w	10000
+
+# 文化厂商厂牌、节目与艺术家
+
+Wiki	w i k i	10000
+Wikipedia	wikipedia	10000
+WWYD	w w y d	10000
+MTV	m t v	10000
+#
+2Pac	t p a c
+Tupac	t p a c
+Tupac	t u p a c
+Taylor Swift	t s	1000
+JJ	j j
+Jay	j a y
+Lam	l a m
+Chou	c h o u
+
+# 其他厂商厂牌
+
+#
+
+# 一般技术词汇
+
+git	g i t	10000
+ssh	s s h	10000
+http	h t t p	10000
+HTTP	h t t p	10000
+https	h t t p s	10000
+HTTPS	h t t p s	10000
+MIPS	m i p s	10000
+OOP	o o p	10000
+Markdown	m d	10000
+Markdown	m a r k d o w n	10000
+API	a p i	10000
+CG	c g	10000
+FM	f m	10000
+IP	i p	10000
+LTS	l t s	10000
+PRAM	p r a m	10000
+RAM	r a m	10000
+ROM	r o m	10000
+SIM	s i m	10000
+ToS	t o s	10000
+Terms of Service	t o s	10000
+TOC	t o c	10000
+table of contents	t o c	10000
+URL	u r l	10000
+USB	u s b	10000
+Wi-Fi	w i f i	10000
+WiFi	w i f i	10000
+#
+Ctrl	ctrl
+ctrl	ctrl
+Alt	alt
+alt	alt
+Shift	shift
+shift	shift
+Tab	t a b	10000
+tab	t a b	10000
+Esc	e s c	10000
+esc	e s c	10000
+#
+index	i n d e x
+inline	i n l i n e
+lock	l o c k
+ascii	a s c i i
+code	c o d e
+dev	d e v
+sudo	s u d o
+text	t e x t
+yum	y u m
+programming	programming
+guide	g u i d e
+W3C	w t h c
+W3C	w s c
+WWW	w w w
+Web	w e b
+World Wide Web	w w w
+IDE	i d e
+VPS	v p s
+DevOps	d e v o p s
+#-后缀名
+cpp	c p p
+css	c s s
+doc	d o c
+docx	d o c x
+erb	e r b
+html	h t m l
+js	j s
+md	m d
+node	n o d e
+php	p h p
+ppt	p p t
+pptx	p p t x
+py	p y
+rb	r b
+sh	s h
+txt	t x t
+xls	x l s
+xlsx	x l s
+#-特有名词
+键值对
+状态机
+纯函数
+函数式编程
+一等公民
+高阶函数
+依赖注入
+王陇德
+金灿荣
+滋事
+滋事体
+吴国盛
+互渗律
+
+# 成语
+了若指掌
+了如指掌
+恃靓行凶
+自怨自艾	zi yuan zi yi	10000
+趋之若鹜	qu zhi ruo wu	10000
+堵不如疏
+险中求富贵
+大哉问
+明斯克
+
+# 西语
+庄士敦
+俚语
+迪迦
+溯因
+回膛
+呼神护卫
+七莎舞
+
+# 常用语
+路人缘
+底池
+辩经
+置零
+点赞数
+赋比兴
+最不济
+使绊子
+捡便宜
+捞偏门
+降魔杵	xiang mo chu	10000
+翻咬
+美篇
+嘴瓢
+新冠
+耿建超
+撇清
+龋坏
+星言星语
+蹬鼻子上脸
+显式
+商君书
+罗织经
+啰嗦	luo suo	10000
+招降	zhao xiang	10000
+降服	xiang fu	10000
+宾虚
+柏克	bo ke	10000
+费边社
+河伯娶亲
+莫罗
+
+# 娱乐
+苞娜
+孟美岐
+吴宣仪
+A-SOUL	a s	10000
+
+# 俚语
+俚语	li yu	10000
+阴间
+阳间
+阳界
+阴界
+天王盖地虎
+宝塔镇河妖
+写著
+错爱
+拱卒
+
+# typo
+一个	yi eg	10000
+教职	jiao zhi	10000
+一了百了	yi liao bai liao	10000
+可能	ke eng	10000
+
+# 硬件技术词汇
+
+# 软件技术词汇 - 前端
+
+JavaScript	j s	10000
+JavaScript	javascript	10000
+CSS	c s s	10000
+CSS3	c s s s	10000
+CoffeeScript	coffeescript	10000
+ERB	e r b	10000
+Emmet	e m m e t	10000
+HTML	h t m l	10000
+HTML5	h t m l f	10000
+HTML5	h f	10000
+JSLint	j s l i n t	10000
+
+
+# 软件技术词汇 - 后端
+
+C#	c s h a r p
+Maven	m a v e n
+Perl	p e r l
+Python	p y t h o n
+Ruby	r u b y
+Scala	s c a l a
+Swift	s w i f t
+Objective-C	o b j c
+C++	c p p
+J2EE	j t e e
+
+# 其他词汇
+
+OK	o k	10000
+TV	t v	10000
+FBI	f b i	10000
+CIA	c i a	10000
+
+DNA	d n a	10000
+DVD	d v d	10000
+
+Alpha	a l p h a	10000
+Beta	b e t a	10000
+Delta	d e l t a	10000
+Theta	t h e t a	10000
+bottleneck	b o t t l e n e c k	10000
+bottleneck	b n	10000
+
+# ################## alphabet & character ###################################
+
+# Math
+
+∵	b e c a u s e	10000
+∵	yin wei	1000
+∴	t h e r e f o r e
+∴	suo yi	1000
+~	s i m
+∈	i n
+⊂	s u b s e t
+⊆	s u b s e t e q
+∑	s u m
+∏	p r o d
+∫	i n t
+∮	o i n t
+∀	f o r a l l
+∃	e x i s t s
+∇	n a b l a
+∆	t r i a n g l e
+∞	i n f t y
+∞	wu xian	1000
+≐	d o t e q
+
+# Greek alphabet
+
+Α	a l p h a	10
+Β	b e t a	10
+Γ	g a m m a	10
+Δ	d e l t a	10
+Ε	e p s i l o n	10
+Ζ	z e t a	10
+Η	e t a	10
+Θ	t h e t a	10
+Ι	i o t a	10
+Κ	k a p p a	10
+Λ	l a m b d a	10
+Μ	m u	10
+Ν	n u	10
+Ξ	x i	10
+Ο	o m i c r o n	10
+Π	p i	10
+Ρ	r h o	10
+Σ	s i g m a	10
+Τ	t a u	10
+Υ	u p s i l o n	10
+Φ	p h i	10
+Χ	c h i	10
+Ψ	p s i	10
+Ω	o m e g a	10
+α	a l p h a	10
+β	b e t a	10
+γ	g a m m a	10
+δ	d e l t a	10
+ε	e p s i l o n	10
+ζ	z e t a	10
+η	e t a	10
+θ	t h e t a	10
+ι	i o t a	10
+κ	k a p p a	10
+λ	l a m b d a	10
+μ	m u	10
+ν	n u	10
+ξ	x i	10
+ο	o m i c r o n	10
+π	p i	10
+ρ	r h o	10
+σ	s i g m a	10
+τ	t a u	10
+υ	u p s i l o n	10
+φ	p h i	10
+χ	c h i	10
+ψ	p s i	10
+ω	o m e g a	10
+
+# ################## simple english ###################################
+
+abc	a b c
+ABC	a b c
+APP	a p p
+bullshit	bullshit
+can't	cant
+champion	champion
+class	class
+clear	clear
+config	config
+cookie	cookie
+couldn't	couldnt
+cup	c u p
+custom	custom
+didn't	didnt
+don't	dont
+down	down
+description	description
+dream	dream
+form	form
+fuck	fuck
+game	game
+great	great
+green	green
+ground	ground
+hadn't	hadnt
+have	have
+haven't	havent
+id	i d
+if	i f
+in	i n
+iCloud	i c l o u d
+loop	loop
+mobile	mobile
+next	next
+object	object
+off	o f f
+on	o n
+option	option
+patch	patch
+pie	p i e
+play	p l ay
+render	render
+return	return
+round	round
+session	session
+switch	switch
+turn	turn
+up	u p
+win	w i n
+
+please	p l s
+bullshit	b s
+
+
+# ################## more glossary ###################################
+
+example	e g	10000
+×	cheng hao	10000
+÷	chu hao	10000
+※	zhong dian	10000
+
+#	...	10000

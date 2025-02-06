@@ -1,0 +1,428 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# Luna Pinyin Extended Dictionary(Chinese&English) - 朙月拼音扩充词库（含西文的词汇）
+#
+#   瑾昀 <cokunhui@gmail.com>
+#
+# 部署位置：
+# ~/.config/ibus/rime  (Linux)
+# ~/Library/Rime  (Mac OS)
+# %APPDATA%\Rime  (Windows)
+#
+# 于重新部署后生效
+#
+
+---
+name: luna_pinyin.cn_en
+version: "2021.5.1"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+
+⇧⌃⌥⌘	dian nao	10000
+2B	er b	10000
+2B	er bi	10000
+阿 Q	a q	10000
+阿 Q 正传	a q zheng zhuan	10000
+单边 z 变换	dan bian z bian huan	10000
+逗 B	dou b	10000
+逗 B	dou bi	10000
+哆啦 A 梦	duo la a meng	10000
+二 B	er b	10000
+二 B	er bi	10000
+卡拉 OK	ka la o k	10000
+牛 B	niu b	10000
+牛 B	niu bi	10000
+三 K 党	san k dang	10000
+三 K 党	san kei dang	10000
+傻 B	sha b	10000
+傻 B	sha bi	10000
+智能 ABC	zhi neng a b c	10000
+装 B	zhuang b	10000
+装 B	zhuang bi	10000
+A 股	a gu	10000
+A 盘	a pan	10000
+A 片	a pian	10000
+AA 制	a a zhi	10000
+AcFUN	a c fun	10000
+Adobe	adobe	10000
+AirDrop	air drop	10000
+Airmail	air mail	10000
+AirPlay	air play	10000
+AirServer	air server	10000
+Alfred	alfred	10000
+Amazon	amazon	10000
+AMD	amd	10000
+Amphetamine	amp hetamine	10000
+Android	android	1000000
+Android	an zhuo	1000000
+#AnyConnect	any connect	10000
+Aperture	aperture	10000
+App Store	app store	1000000
+App Store Marketing Guidelines	app store marketing guidelines	1000000
+AppFridays	app fridays	1000000
+Apple	apple	10000
+Apple Developer	apple developer	10000
+Apple File System	apple file system	10000
+Apple ID	apple id	10000
+Apple Music	apple music	10000
+Apple News	apple news	10000
+Apple Pay	apple pay	10000
+Apple Store	apple store	10000
+Apple TV	apple tv	10000
+Apple Watch	apple watch	10000
+AppleCare	apple care	10000
+AppleCare+	apple care	10000
+AppShopper	app shopper	10000
+Arduino	arduino	10000
+#aText	a text	10000
+#ATI	ati	10000
+ATM 机	atm ji	10000
+#Atom	a tom	10000
+#Axure	a xure	10000
+B 超	b chao	10000
+B 股	b gu	10000
+B 淋巴细胞	b lin ba xi bao	10000
+B 盘	b pan	10000
+B 细胞	b xi bao	10000
+Bartender	bartender	10000
+BetterSnap Tool	better snap tool	10000
+BetterTouchTool	better touch tool	10000
+BetterZip	better zip	10000
+Brackets	brackets	10000
+BundleHunt	bundlehunt	10000
+#Byword	byword	10000
+C 盘	c pan	10000
+C 语言	c yu yan	10000
+Caffeine	caffeine	10000
+Calcbot	calcbot	10000
+Calibre	calibre	10000
+CarPlay	car play	10000
+CDN	cdn	10000
+Charles	charles	10000
+CheatSheet	cheat sheet	10000
+ChemBioDraw	chembiodraw	10000
+Chrome	chrome	10000
+CleanMyMac	cleanmymac	10000
+Clear	clear	10000
+CloudApp	cloud app	10000
+CloudMagic	cloud magic	10000
+Coda	coda	10000
+CodeBox	code box	10000
+CodeKit	code kit	10000
+CodeRunner	code runner	10000
+ColorSchemer	color schemer	10000
+ColorSnapper	color snapper	10000
+Control Center	control center	10000
+Cornerstone	cornerstone	10000
+Cornerstone	c s	10000
+Cortana	c o r t a n a	10000
+Curio	curio	10000
+Current Mac Bundles	current mac bundles	10000
+D 盘	d pan	10000
+DaisyDisk	daisy disk	10000
+Dash	dash	10000
+Datagraph	datagraph	10000
+Day One	day one	10000
+Default Folder X	default folder x	10000
+Desktop	desk top	10000
+Developer Preview	developer preview	10000
+DEVONthink	devon think	10000
+Disk Utility	disk utility	10000
+Diumoo	diumoo	10000
+DNA	dna	10000
+Dock	dock	10000
+Dropbox	drop box	10000
+Dropzone	drop zone	10000
+DVD	dvd	10000
+#E 盘	e pan	10000
+EI Capitan	ei capitan	10000
+Endnote	endnote	10000
+Entropy	entropy	10000
+ePub	epub	10000
+Eureka	eureka	10000
+Evernote	ever note	10000
+ExFAT	ex fat	10000
+F 盘	f pan	10000
+Fantastical	fan tastical	10000
+FileVault	file vault	10000
+Final Cut Pro	final cut pro	10000
+Flickr	flickr	10000
+Flux	flux	10000
+Force Touch	force touch	10000
+Forecast	fore cast	10000
+ForkLift	forklift	10000
+Frank DeLoupe	frank deloupe	10000
+G 点	g dian	10000
+G 盘	g pan	10000
+Geekbench	geek bench	10000
+Gemini	ge mini	10000
+Gestimer	ges timer	10000
+GhostNote	ghost note	10000
+GhostTile	ghost tile	10000
+Gif Brewery	gif brewery	10000
+Gists	gists	10000
+GitHub	github	10000
+Gmail	gmail	10000
+GoagentX	go agent x	10000
+Google	google	10000
+Google	gu ge	10000
+Google Music	google music	10000
+Graffle	graffle	10000
+H 股	h gu	10000
+H 盘	h pan	10000
+Handoff	hang off	10000
+Hazel	hazel	10000
+Home	home	10000
+HomeKit	home kit	10000
+HTML	h t m l	10000
+#I 盘	i pan	10000
+#iA Writer	ia writer	10000
+#IBM	i b m	10000
+#iCloud	i cloud	10000
+#iCloud Drive	i cloud drive	10000
+#iExplorer	i explorer	10000
+#iFFmpeg	iff mpeg	10000
+#IFTTT	if ttt	10000
+#iMac	i mac	150
+#iMessage	i message	10000
+#iMore	i more	10000
+#Inboard	inboard	10000
+#Instacast	instacast	10000
+#Instashare	instashare	10000
+Intellij IDEA	intellij idea	10000
+#Intensify	intensify	10000
+#iOS	i os	1000000
+#IP	i p	20000
+#IP 地址	i p di zhi	1000000
+#IP 电话	i p dian hua	1000000
+#IP 卡	i p ka	1000000
+#IP 位址	i p wei zhi	1000000
+#iPack	i pack	1000000
+#iPad	i pad	12000
+#iPhone	i phone	15000
+#IPN	ipn	10000
+#iPod	i pod	1000000
+#IPTV	i p tv	1000000
+#IPv4	i p v si	1000000
+#IPv6	i p v liu	1000000
+#iStat Menus	istat menus	1000000
+#iTerm	iterm	1000000
+#iTunes	i tunes	1000000
+#iTunes Connect	i tunes connect	1000000
+#iTunes Match	i tunes match	1000000
+#iWatch	i watch	1000000
+J 盘	j pan	10000
+K 宝	k bao	10000
+K 宝	kei bao	10000
+K 粉	k fen	10000
+K 粉	kei fen	10000
+K 歌	k ge	10000
+K 歌	kei ge	10000
+Kaleidoscope	kaleidoscope	10000
+Karabiner	karabiner	10000
+Keka	keka	10000
+Keyboard Maestro	keyboard maestro	10000
+#Keycard	key card	10000
+#KeyCue	key cue	10000
+Knock	knock	10000
+LaTeXian	latexian	10000
+LaTeXian	ltx	10000
+Launcher	launcher	10000
+Linux	linux	10000
+Little Snitch	little snitch	10000
+Live Photos	live photos	10000
+LiveReload	live reload	10000
+LockScreen	lock screen	10000
+Mac	mac	10000
+Mac App Store	mac app store	10000
+Mac Rumors	mac rumors	10000
+MacAppDeals	mac app deals	10000
+MacBook	mac book	10000
+MacBook Air	mac book air	10000
+MacID	mac i d	10000
+macOS	mac o s	10000
+macOS Sierra	mac o s sierra	10000
+MacTips	mac tips	10000
+MacUpdate Desktop	mac update desktop	10000
+Mailbox	mail box	10000
+MAMP PRO	mamp pro	10000
+Manico	manico	10000
+Maple	maple	10000
+#MarkMyWords	mark my words	10000
+MarsEdit	mars edit	10000
+Mathtype	math type	10000
+Microsoft	micr soft	10000
+MIPS	mips	10000
+Moke	moke	10000
+Moneywiz	moneywiz	10000
+Moom	moom	10000
+MP3	mp san	10000
+MP4	mp si	10000
+MplayerX	mplayer x	10000
+Netflix	net flix	10000
+Noizio	noizio	10000
+Numbers	numbers	10000
+nvALT	nvalt	10000
+Nvidia	nvidia	10000
+Office	office	10000
+OmmWriter	ommwriter	10000
+OmniFocus	omni focus	10000
+OmniGraffle	omni graffle	10000
+OmniOutliner	omni outliner	10000
+OmniPlan	omni plan	10000
+OneNote	one note	10000
+OS X	o s x	10000
+Overcast	over cast	10000
+Overflow	over flow	10000
+Pages	pages	10000
+PaintCode	paint code	10000
+Parallels Desktop	parallels desktop	10000
+Password	password	10000
+Paste	paste	10000
+Paw	paw	10000
+PayPal	pay pal	10000
+PhotoDesk	photo desk	10000
+Photoshop	photo shop	10000
+Picatext	pica text	10000
+PingWest	ping west	10000
+Pixelmator	pixel mator	10000
+#Play by Play	play by play	10000
+PlistEdit	plist edit	10000
+PopClip	pop clip	10000
+POS 机	pos ji	10000
+PowerPack	power pack	10000
+Privoxy	privoxy	10000
+Pro	pro	10000
+Promotee	promotee	10000
+Proxifier	proxifier	10000
+Public Beta	public beta	10000
+Python	python	10000
+Q 币	q bi	10000
+QQ	q q	10000
+QQ 号	q q hao	10000
+QQ 号码	q q hao ma	10000
+QQ 会员	q q hui yuan	10000
+QQ 空间	q q kong jian	10000
+QQ 群	q q qun	10000
+QQ 邮箱	q q you xiang	10000
+Quitter	quitter	10000
+Quiver	quiver	10000
+Rdio	rdio	10000
+Readability	read ability	10000
+Readkit	read kit	10000
+Regulex	regulex	10000
+Remote	remote	10000
+RescueTime	rescue time	10000
+Rime	rime	10000
+Rime	zhong zhou yun	10000
+Retina	re ti na	10000
+Safari	safari	10000
+Safari View Controller	safari view controller	10000
+SaneDesk	sane desk	10000
+#scomper@gmail.com	smail	10000
+Scrapbook	scrap book	10000
+ScreenFloat	screen float	10000
+ScreenFlow	screen flow	10000
+Scribble	scri bble	10000
+Scrivener	scri vener	10000
+SDK	sdk	10000
+Should I Sleep	should i sleep	10000
+SIM 卡	sim ka	10000
+Simplenote	simple note	10000
+Siri	siri	10000
+Sketch	sketch	10000
+Slicy	slicy	10000
+Snagit	snagit	10000
+Snip	snip	10000
+Sparkbox	spark box	10000
+Sparrow	sparrow	10000
+Speedtest	speed test	10000
+Spotify	spot ify	10000
+Spotlight	spot light	10000
+Spss	spss	10000
+Squirrel	squirrel	10000
+SSLEdge	ssledge	10000
+StackSocial	stack social	10000
+Sublime Text	sublime text	10000
+Surge	surge	10000
+Swift	swift	10000
+Symbol	symbol	10000
+T 淋巴细胞	t lin ba xi bao	10000
+T 细胞	t xi bao	10000
+T 型台	t xing tai	10000
+T 恤	t xu	10000
+T 恤衫	t xu shan	10000
+Tag	ta g	10000
+TechWeb	tech web	10000
+Telegram	telegram	10000
+Terminal	terminal	10000
+TestFlight	test flight	10000
+Texshop	texshop	10000
+Textastic	text astic	10000
+TextExpander	text expander	10000
+TextWrangler	text wrangler	10000
+The Unarchiver	the unarchiver	10000
+Things	things	10000
+Thunder	thunder	10000
+Thunderbird	thunder bird	10000
+Time Capsule	time capsule	10000
+Timing	timing	10000
+TinkerTool	tinker tool	10000
+Touch	touch	10000
+Touch ID	touch id	10000
+Tower	tower	10000
+Trello	trello	10000
+Tumblr	tumblr	10000
+tvOS	tv o s	10000
+Tweetbot	tweet bot	10000
+Twitter	twitter	10000
+Typora	typora	10000
+U 盾	u dun	10000
+U 盘	u pan	10000
+U 形管	u xing guan	10000
+Uber	u ber	10000
+uBlock	u block	10000
+UIM 卡	uim ka	10000
+Ulysses	u lysses	10000
+USB	usb	10000
+USIM 卡	u sim ka10000
+#Versions	versions	10000
+VPN	vpn	10000
+Watch	watch	10000
+watchOS	watch o s	10000
+Wi-Fi	wai fai	10000
+Wi-Fi	wi fi	10000
+Widget	widget	10000
+WiFi	wai fai	10000
+WiFi	wi fi	10000
+WiFi Explorer	wifi explorer	10000
+WiFi Scanner	wifi scanner	10000
+Window Tidy	window tidy	10000
+Windows	windows	10000
+Word	word	10000
+Workflow	work flow	10000
+WorkFlowy	work flowy	10000
+WWDC	wwdc	10000
+X 刀	x dao	10000
+X 光	x guang	10000
+X 染色体	x ran se ti	10000
+X 射线	x she xian	10000
+Xee	xee	10000
+Xeon	xeon	10000
+Xmind	x mind	10000
+xScope	x scope	10000
+XtraFinder	xtra finder	10000
+Y 染色体	y ran se ti	10000
+YouTube	you tube	10000
+z 变换	z bian huan	10000
+z 逆变换	z ni bian huan	10000
+ZEALER	zealer	10000
+α 粒子	a er fa li zi	10000
+α 射线	a er fa she xian	10000
+β 粒子	bei ta li zi	10000
+β 射线	bei ta she xian	10000
+γ 刀	ga ma dao	10000
+γ 射线	ga ma she xian	10000
