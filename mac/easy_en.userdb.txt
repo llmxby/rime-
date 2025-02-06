@@ -1,7 +1,7 @@
 # Rime user dictionary
 #@/db_name	easy_en
 #@/db_type	userdb
-#@/rime_version	1.7.3
+#@/rime_version	1.13.0
 #@/tick	224
 #@/user_id	mac
 abase 	abase	c=5 d=4.81433 t=224
