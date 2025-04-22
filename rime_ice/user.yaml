@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1738853232
+  last_build_time: 1740731065
   option:
-    ascii_punct: true
+    ascii_punct: false
     traditionalization: false
